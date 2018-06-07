@@ -17,10 +17,10 @@ public class reverse {
     char[] Str = input.toCharArray();
     
     for(int i=Str.length-1; i>=0; i--){
+  
         System.out.println(Str[i]);
-        
-    
     }
+    
     }    
     
 }
