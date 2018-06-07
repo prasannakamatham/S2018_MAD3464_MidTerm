@@ -16,14 +16,14 @@ public class C0737608_MidTerm_MADS3464 {
      */
     public static void main(String[] args) {
         String input = "Lambton";
-        String Rev =" ";
-        char[] Str = input.toCharArray();
+        String Rev ="";
+        /*char[] Str = input.toCharArray();*/
     
-        for(int i=Str.length-1; i>=0; i--){
+        for(int i=input.length()-1; i>=0; i--)
             
             Rev = Rev + input.charAt(i);
             System.out.println("Reverse of a string is:" + Rev);
-        }
+        
         
     }
     
