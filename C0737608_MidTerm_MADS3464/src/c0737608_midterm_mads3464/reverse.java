@@ -14,11 +14,13 @@ public class reverse {
     public static void main(String[] args) {
 
     String input = "Lambton";
+    String RevStr=" ";
     char[] Str = input.toCharArray();
     
     for(int i=Str.length-1; i>=0; i--){
-  
-        System.out.println(Str[i]);
+        
+        RevStr = RevStr + charAt(i);  
+        System.out.println(RevStr);
     }
     
     }    
