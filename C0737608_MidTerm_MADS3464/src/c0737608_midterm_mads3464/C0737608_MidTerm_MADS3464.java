@@ -10,11 +10,12 @@ package c0737608_midterm_mads3464;
  * @author macstudent
  */
 public class C0737608_MidTerm_MADS3464 {
-        
+   
+    public static void main(String[] args){
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    /*reverse of a String*/
         String input = "Lambton";
         String Rev ="";
         /*char[] Str = input.toCharArray();*/
@@ -23,8 +24,10 @@ public class C0737608_MidTerm_MADS3464 {
             
             Rev = Rev + input.charAt(i);
             System.out.println("Reverse of a string is:" + Rev);
-        
-        
+            
+            
+            
+    
     }
     
 }
